@@ -13,14 +13,14 @@ include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := vili
 
 # Display
-TARGET_SCREEN_DENSITY := 560
+TARGET_SCREEN_DENSITY := 420
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := vili
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/vili
-TARGET_KERNEL_CONFIG := vendor/vili_defconfig
+#TARGET_KERNEL_SOURCE := kernel/xiaomi/vili
+#TARGET_KERNEL_CONFIG := vendor/vili_defconfig
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
